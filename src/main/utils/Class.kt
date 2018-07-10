@@ -6,10 +6,10 @@ class Radio (
         var vol : Int = 0,
         var est : String = "FM",
         var IO : Boolean = false,
-        var num : Int = 80
+        var num : Int = 87
 ){override fun toString(): String {
     return """
-            Radio:
+            Estado actual del radio:
                 Estacion: $est ,
                 Numero estacion: $num,
                 Volumen: $vol
